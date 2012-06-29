@@ -1,4 +1,4 @@
-make-basic
+makefiles
 ==========
 
-Drush makefile for Basic site package
+Drush makefiles for web site package deployments

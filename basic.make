@@ -10,15 +10,26 @@ projects[] = "advanced_help"
 projects[] = "ctools"
 projects[] = "cck"
 projects[] = "colorbox"
-projects[] = "context"
+projects[] = "colorbox_node"
 projects[] = "devel"
 projects[] = "features"
 projects[] = "fieldset_helper"
+projects[] = "filefield_sources"
+projects[] = "filefield_sources_plupload"
+projects[] = "follow"
 projects[] = "globalredirect"
+projects[] = "google_webfont_loader_api"
+projects[] = "google_analytics"
+projects[] = "image_resize_filter"
 projects[] = "imagecache_actions"
+projects[] = "imagestyleflush"
 projects[] = "imagezoom"
+projects[] = "insert"
+projects[] = "jquery_update"
 projects[] = "libraries"
 projects[] = "logintoboggan"
+projects[] = "media"
+projects[] = "nodeblock"
 projects[] = "pathauto"
 projects[] = "pathologic"
 projects[] = "profiler_builder"
@@ -27,26 +38,30 @@ projects[] = "strongarm"
 projects[] = "token"
 projects[] = "transliteration"
 projects[] = "views"
+projects[] = "webform"
 projects[] = "wysiwyg"
+projects[] = "xmlsitemap"
 
-; ========================================
 ; Themes
-; ========================================
 projects[] = "skeletontheme"
 
-; ========================================
 ; Libraries
-; ========================================
+
 ; Colorbox
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 ; CKEditor
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz"
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "https://github.com/krymen/ckeditor.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
+; plupload
+libraries[plupload][download][type] = "git"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload.git"
+libraries[plupload][directory_name] = "plupload"
+libraries[plupload][type] = "library"
 
 ; ========================================
 ; FrontPage Local
